@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Eyad</title>
+    <style>
+        /* إعادة تعيين القيم الافتراضية */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* تنسيق الجسم */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* شريط التنقل */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .logo {
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+            padding-left: 20px;
+        }
+
+        /* خصائص الـ navbar */
+        .navigation {
+            display: flex;
+            justify-content: flex-end; /* لتحريك الروابط إلى الجهة اليمنى */
+            gap: 20px;
+            padding-right: 20px;
+        }
+
+        .navigation a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        /* تأثير عند التمرير على الروابط */
+        .navigation a:hover {
+            background-color: #007bff;
+        }
+
+        /* في حالة الشاشات الصغيرة */
+        @media (max-width: 768px) {
+            .navigation {
+                flex-direction: column; /* جعل الروابط تحت بعضها */
+                align-items: center; /* محاذاة الروابط للمنتصف */
+                gap: 10px;
+            }
+
+            .navigation a {
+                font-size: 18px;
+                padding: 12px 20px;
+            }
+
+            .logo {
+                font-size: 20px;
+                text-align: center;
+                padding-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <a href="https://youtube.com/@evildevil-hydra" class="logo">Evil - Eyad Dev</a>
+        <nav class="navigation">
+            <a href="projects.html">Projects</a>
+            <a href="https://www.youtube.com/@evildevil-hydra">Youtube</a>
+            <a href="contact.html">Contact</a>
+            <a href="designes.html">My Designs</a>
+            <a href="index.html">Main Page</a>
+        </nav>
+    </header>
+
+</body>
+</html>
+
+    <section class="main">
+        <div>
+            <h2>Evil Devil - Eyad <br></h2>
+            <h3>Ethical Hacker - Programmer - Pro Designer</h3>
+            <a href="https://eyadhany-bio.tiiny.site" class="main-btn">
+                Another Informations
+            </a>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@evildevil-hydra/"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://chat.whatsapp.com/CUQgyviX3yI1Uid6KLFVXs/"><i class="fa-brands fa-itch-io"></i></a>
+                <a href="https://discord.gg/7zqMqHPbgw"><i class="fa-brands fa-discord"></i></a>
+            </div>
+        </div>
+    </section>
+
